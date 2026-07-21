@@ -74,6 +74,18 @@ shopos/
 └── assets/             ← (Add images/icons here later)
 
 ---
+project screenshot
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/96faf0e8-f230-495a-8706-b0ba13d3e7b3" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/09ea3312-ffba-4448-bc41-c6b9eebf154a" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/bb3f6974-f3f0-4f4a-9f10-1894d65073a1" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/116221a0-b8e8-42d2-aebc-e0d60932b964" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0f315ade-cfab-42e7-8d14-d6d1598326d4" />
+
+
+
+
+
 
 ## How to Run
 
