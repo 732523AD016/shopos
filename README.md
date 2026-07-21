@@ -1,141 +1,70 @@
-# ShopOS Dashboard
+# Getting Started with Create React App
 
-E-Commerce Sales Dashboard — Multi-page SPA with animations.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
-Certainly! Here's a sample README file for your sales dashboard project that you can upload to GitHub:
+## Available Scripts
 
----
+In the project directory, you can run:
 
-# Sales Dashboard Project
+### `npm start`
 
-A comprehensive sales dashboard built to visualize key sales metrics such as revenue, orders, customer data, and trends in an intuitive and interactive manner.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Real-time sales insights
-- Visualizations of revenue, orders, customers, and conversion rates
-- Revenue trend graphs (Daily, Weekly, Monthly)
-- Order status pie chart (Delivered, Pending, Shipped, Canceled)
-- Percentage growth indicators
-- Interactive filters for detailed analysis
+### `npm test`
 
-## Technologies Used
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Frontend: [React.js / Angular / Vue.js] (choose as per your project)
-- Visualization Libraries: [Chart.js / D3.js / Recharts / Plotly] (choose as per your project)
-- Backend: [Node.js / Python / PHP / Others]
-- Data Source: [APIs / Databases] (specify your data source)
+### `npm run build`
 
-## Setup Instructions
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/732523AD016/shopos.git
-   ```
-2. Navigate to project directory:
-   ```bash
-   cd your-732523AD016/shopos
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the development server:
-   ```bash
-   npm start
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Usage
+### `npm run eject`
 
-- Access the dashboard through `http://localhost:3000` (or your specified port).
-- Use filters to drill down into specific data segments.
-- Hover over graphs for detailed information.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Contributing
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Contributions are welcome! Please fork the repository and create a pull request with your improvements.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-## Folder Structure
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```
-shopos/
-├── index.html          ← Open this in browser
-├── css/
-│   └── styles.css      ← All styles & CSS variables
-├── js/
-│   ├── data.js         ← All static data (orders, products, customers)
-│   ├── charts.js       ← Chart.js chart functions
-│   ├── pages.js        ← Page render functions
-│   └── main.js         ← Cursor, particles, navigation, counters
-└── assets/             ← (Add images/icons here later)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
-project screenshot
+### Code Splitting
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/96faf0e8-f230-495a-8706-b0ba13d3e7b3" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/09ea3312-ffba-4448-bc41-c6b9eebf154a" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/bb3f6974-f3f0-4f4a-9f10-1894d65073a1" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/116221a0-b8e8-42d2-aebc-e0d60932b964" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0f315ade-cfab-42e7-8d14-d6d1598326d4" />
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-## How to Run
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Option 1 — Direct open (simplest)
-Double click `index.html` → opens in Chrome/Edge/Firefox
+### Deployment
 
-### Option 2 — VS Code Live Server (recommended)
-1. Install "Live Server" extension in VS Code
-2. Right-click `index.html` → "Open with Live Server"
-3. Opens at `http://localhost:5500`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
----
+### `npm run build` fails to minify
 
-## Pages
-
-| Sidebar Icon | Page       | Features                              |
-|-------------|------------|---------------------------------------|
-| ⊞           | Dashboard  | Stats, Charts, Feed, Products, KPIs   |
-| 📦           | Orders     | Table, Search, Filter, Pagination     |
-| 🏷️           | Products   | Card grid, Stock bars, Low stock alert|
-| 👥           | Customers  | Cards, VIP/Active/New badges          |
-
----
-
-## JS File Load Order (important!)
-
-In `index.html`, scripts load in this order:
-```html
-<script src="js/data.js"></script>    <!-- 1. Data first -->
-<script src="js/charts.js"></script>  <!-- 2. Charts (needs data) -->
-<script src="js/pages.js"></script>   <!-- 3. Pages (needs data) -->
-<script src="js/main.js"></script>    <!-- 4. Main (needs all above) -->
-```
-
----
-
-## Customizing Data
-
-All data is in `js/data.js` — edit arrays to change:
-- `orders[]`     → Order table rows
-- `allProds[]`   → Product cards
-- `custs[]`      → Customer cards
-- `topProds[]`   → Dashboard top products list
-- `lineChartData` / `barChartData` → Chart numbers
-
----
-
-## Next Steps
-
-- [ ] Connect to real backend API (replace hardcoded data with `fetch()`)
-- [ ] Add Login / Auth page
-- [ ] Convert to React / Next.js
-- [ ] Deploy on Vercel
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
